@@ -1,0 +1,15 @@
+.default {
+  background-color: dimgrey;
+}
+
+.success {
+  color: forestgreen;
+}
+
+.error {
+  color: crimson;
+}
+
+.mark {
+  font-size: 35px;
+}

@@ -1,0 +1,7 @@
+<h1>Fruits</h1>
+
+<div *ngFor="let fruit of fruits; even as even; odd as odd">
+  <div [ngClass]="{ error: even, success: odd, mark: fruit.price > 15 }" *ngIf="fruit.price > 7">
+    name: {{ fruit.name }}, price: {{ fruit.price }}
+  </div>
+</div>
